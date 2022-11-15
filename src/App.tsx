@@ -3,10 +3,10 @@ import NavBar from './components/NavBar'
 
 export default function App() {
   return (
-    <div className="h-full pt-40 text-slate-800 bg-gradient-to-r from-purpleish to-blueish">
+    <div className="h-full pt-40 text-slate-800 bg-blueish">
       <NavBar />
         <h1 className="text-center text-5xl mb-4 font-display text-white">
-        Hello
+        About Me
         </h1>
 
     </div>
