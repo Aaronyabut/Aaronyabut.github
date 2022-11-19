@@ -1,13 +1,17 @@
 import NavBar from './components/NavBar'
-
+import AboutMe from './components/AboutMe'
+import Introduction from './components/Introduction'
+import Projects from './components/Projects'
+import ContactMe from './components/ContactMe'
 
 export default function App() {
   return (
     <div className="h-full pt-40 text-slate-800 bg-blueish">
       <NavBar />
-        <h1 className="text-center text-5xl mb-4 font-display text-white">
-        About Me
-        </h1>
+      <Introduction />
+      <AboutMe />
+      <Projects />
+      <ContactMe />
 
     </div>
   )
