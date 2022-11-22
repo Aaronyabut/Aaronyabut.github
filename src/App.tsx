@@ -2,16 +2,24 @@ import NavBar from './components/NavBar'
 import AboutMe from './components/AboutMe'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
-import ContactMe from './components/ContactMe'
+import Socials from './components/Socials'
 
 export default function App() {
   return (
-    <div className="h-full pt-40 text-slate-800 bg-blueish">
+    <div className="h-full text-slate-800 bg-blueish">
       <NavBar />
-      <Introduction />
-      <AboutMe />
-      <Projects />
-      <ContactMe />
+      <div className="border-2">
+        <Introduction />
+      </div>
+      <div className="border-2" id="aboutMe">
+        <AboutMe />
+      </div>
+      <div className="border-2" id="projects">
+        <Projects />
+      </div>
+      <div className="border-2">
+        <Socials />
+      </div>
 
     </div>
   )
