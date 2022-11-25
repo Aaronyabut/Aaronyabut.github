@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  height: 100%;
+}
+
 html {
   height: 100%;
   width: 100%;
-  background-color: #3c3e48;
+  /* background-color: #3c3e48; */
+  background-color: white;
   scroll-behavior: smooth;
 }
 
@@ -51,7 +56,6 @@ body {
   --b: 4px;    /* border thickness*/
   --c: #d2d3d0; /* the color */
 
-
   padding: calc(var(--g) + var(--b));
   --_c: #0000 0 25%, var(--c) 0 50%;
   --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
@@ -60,19 +64,81 @@ body {
     var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
     var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
   background-size: 200% var(--b),var(--b) 200%;
-  cursor: pointer;
-  /* filter: grayscale(200%) invert(75%); */
-  /* filter: drop-shadow(3px 3px 7px rgb(132, 0, 255)); */
-  transition: .3s;
+  /* cursor: pointer; */
+  transition: .5s;
 }
+
 #itMe:hover {
   --_p: 75%;
-  /* filter: grayscale(0%); */
-  /* filter: hue-rotate(0deg); */
-  /* filter: drop-shadow(3px 3px 7px rgb(0, 157, 255)); */
 }
 
+/* #card {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-image: url(https://source.unsplash.com/collection/905011/1000x1000);
+  background-size: cover;
+} */
 
-#root {
+#info {
+  /* position: relative; */
+  /* width: 100%; */
+  /* height: 500px; */
+  /* background-color: #fff; */
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.5s ease-out;
+}
+
+/* #info:before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: ' ';
+  width: 100%;
   height: 100%;
+  overflow: hidden;
+  background-image: url(https://source.unsplash.com/collection/905011/1000x1000);
+  filter: blur(10px);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.5s ease-out;
+} */
+
+#card:hover #info,
+#card:hover #info:before {
+  transform: translateY(0) translateZ(0);
 }
+
+/* #title { */
+  /* margin: 0; */
+  /* padding: 24px; */
+  /* font-size: 40px; */
+  /* line-height: 1; */
+  /* color: rgba(0, 0, 0, 0.87); */
+  /* color:  #991b1b; */
+/* } */
+
+/* #description { */
+  /* margin: 0; */
+  /* padding: 0 24px 24px; */
+  /* font-size: 18px; */
+  /* line-height: 1.5; */
+/* } */
+
+
+/* * {
+  box-sizing: border-box;
+  position: relative;
+  transition: all .3s ease
+} */

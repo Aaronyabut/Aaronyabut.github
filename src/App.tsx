@@ -3,23 +3,28 @@ import AboutMe from './components/AboutMe'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
 import Socials from './components/Socials'
+import Outro from './components/Outro'
 
 export default function App() {
   return (
-    <div className="h-full text-slate-800 bg-blueish">
+    <div className="h-full text-slate-800 bg-blueish mb-1 static">
       <NavBar />
-      <div className="border-2">
-        <Introduction />
-      </div>
-      <div className="border-2" id="aboutMe">
-        <AboutMe />
-      </div>
-      <div className="border-2" id="projects">
-        <Projects />
-      </div>
-      <div className="border-2">
-        <Socials />
-      </div>
+
+        <div className="border-2 bg-blueish">
+          <Introduction />
+        </div>
+        <div className="border-2 bg-blueish" id="aboutMe">
+          <AboutMe />
+        </div>
+        <div className="border-2 bg-blueish" id="projects">
+          <Projects />
+        </div>
+        <div className="border-2 bg-blueish">
+          <Socials />
+        </div>
+
+
+      {/* <Outro /> */}
 
     </div>
   )

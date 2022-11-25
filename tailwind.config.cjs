@@ -22,8 +22,30 @@ module.exports = {
         '160': '53rem',
       },
       zIndex: {
-        '1000': '1000'
-      }
+        '1000': '1000',
+      },
+      width: {
+        '1000': '62.5rem',
+        '500': '31.25rem',
+      },
+      height: {
+        '500': '31.25rem',
+      },
+      minHeight: {
+        '500': '31.25rem',
+      },
+      backgroundImage: {
+        'temp-img': "url(https://source.unsplash.com/collection/905011/1000x1000)",
+      },
+      boxShadow: {
+        '3xl': '0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12)',
+      },
+      fontSize: {
+        2.5: '2.7rem',
+      },
+      padding: {
+        'desc': '0 24px 24px',
+      },
     },
   },
   plugins: [],

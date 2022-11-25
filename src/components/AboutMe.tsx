@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe () {
   return (
-      <div className="flex justify-center mx-14 my-96 " >
+      <div className="flex justify-center mx-14 my-96" >
         <div className="w-160 ">
           <div className="w-50">
             <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish">
@@ -22,19 +22,10 @@ export default function AboutMe () {
               </h3>
             </div>
 
-            {/* <div className="border-4 ml-10 bg-gradient-to-bl from-indigo-500/100 to-cyan-500 ">
               <img
                 src="itME.jpg"
                 className="
-                max-h-96 opacity-60 ease-in duration-700
-                hover:opacity-100 ease-out duration-700
-                "
-              />
-            </div> */}
-              <img
-                src="itME.jpg"
-                className="
-                max-h-96 opacity-100 ease-in duration-700 ml-10
+                  max-h-96 opacity-100 ease-in duration-700 ml-10
                 "
                 id="itMe"
               />
