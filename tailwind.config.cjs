@@ -16,6 +16,8 @@ module.exports = {
       spacing: {
         '50': '14rem',
         '120': '28rem',
+        '124': '30rem',
+        '126': '31rem',
         '128': '32rem',
         '140': '37rem',
         '150': '45rem',
@@ -36,6 +38,7 @@ module.exports = {
       },
       backgroundImage: {
         'temp-img': "url(https://source.unsplash.com/collection/905011/1000x1000)",
+        'temp-img2': "url(https://iso.500px.com/wp-content/uploads/2017/07/stock-photo-219973977-960x1000.jpg)",
       },
       boxShadow: {
         '3xl': '0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12)',
