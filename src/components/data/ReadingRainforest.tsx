@@ -4,10 +4,10 @@ export default function ReadingRainforest () {
 
 
   return (
-    <div className="border-2 flex flex-row">
+    <div className="flex flex-row">
           <div id="card"
             className="
-              rounded-2xl mt-4 h-96 max-h-full w-600 max-w-full overflow-hidden bg-cover bg-RR shadow-3xl
+              rounded-2xl mt-4 h-96  w-992  overflow-hidden bg-cover bg-RR shadow-3xl
             "
             >
             <div id='info'
@@ -28,9 +28,9 @@ export default function ReadingRainforest () {
               </p>
             </div>
           </div>
-          <div className=" relative right-2 h-auto my-auto w-126 text-right">
+          <div className="w-140 relative right-6 h-auto my-auto text-right">
             <div className="text-white">
-              <p className="h-auto p-2 font-bold text-2xl">
+              <p className="h-auto p-2 font-bold text-3xl">
                 Reading Rainforest
               </p>
             </div>
