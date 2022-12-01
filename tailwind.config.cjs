@@ -24,6 +24,7 @@ module.exports = {
         '160': '53rem',
       },
       zIndex: {
+        '500': '500',
         '1000': '1000',
       },
       width: {
@@ -42,6 +43,8 @@ module.exports = {
         'temp-img': "url(https://source.unsplash.com/collection/905011/1000x1000)",
         'RRR': "url(https://iso.500px.com/wp-content/uploads/2017/07/stock-photo-219973977-960x1000.jpg)",
         'RR': "url(https://user-images.githubusercontent.com/85593147/195161074-67c2a670-1921-49d8-b39b-9b177d456358.gif)",
+        'SDC': "url('./SDC.png')",
+        'FEC': "url(https://user-images.githubusercontent.com/85593147/195180939-94924853-4102-4c5d-a78b-7f81322a840b.gif)",
       },
       boxShadow: {
         '3xl': '0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12)',

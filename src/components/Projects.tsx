@@ -1,5 +1,8 @@
 import React from 'react';
 import ReadingRainforest from './data/ReadingRainforest';
+import SystemDesign from './data/SystemDesign';
+import Atelier from './data/Atelier';
+import FaangMan from './data/FaangMan';
 
 export default function Projects () {
   return (
@@ -10,7 +13,19 @@ export default function Projects () {
           projects
           </h1>
         </div>
-        <ReadingRainforest />
+        <div className="mb-20">
+          <ReadingRainforest />
+        </div>
+        <div className="mb-20">
+          <SystemDesign />
+        </div>
+        <div className="mb-20">
+          <Atelier />
+        </div>
+        <div className="mb-20">
+          <FaangMan />
+        </div>
+
       </div>
     </div>
   )

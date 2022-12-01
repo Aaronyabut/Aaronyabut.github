@@ -83,6 +83,6 @@ body {
 #card:hover #info,
 #card:hover #info:before {
   transform: translateY(0) translateZ(0);
-  opacity: 1;
+  opacity: .9;
   transition: transform 0.78s ease-out;
 }
