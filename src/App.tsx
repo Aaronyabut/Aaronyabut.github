@@ -10,18 +10,18 @@ export default function App() {
     <div className="h-full text-slate-800 bg-blueish mb-1 static">
       <NavBar />
 
-        <div className="border-2 bg-blueish">
+        <div className=" grid place-content-center bg-blueish h-screen  ">
           <Introduction />
         </div>
-        <div className="border-2 bg-blueish" id="aboutMe">
+        <div className=" grid place-content-center bg-blueish h-screen" id="aboutMe">
           <AboutMe />
         </div>
-        <div className="border-2 bg-blueish" id="projects">
+        <div className=" grid place-content-center bg-blueish h-max p-64" id="projects">
           <Projects />
         </div>
-        <div className="border-2 bg-blueish">
+        {/* <div className=" bg-blueish">
           <Socials />
-        </div>
+        </div> */}
 
 
       {/* <Outro /> */}

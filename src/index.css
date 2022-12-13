@@ -76,7 +76,7 @@ body {
   transform: translateY(100%)
     translateY(-88px)
     translateZ(0);
-  transition: transform 0.78s ease-out;
+  transition: transform 0.88s ease-out;
 
 }
 
@@ -84,5 +84,5 @@ body {
 #card:hover #info:before {
   transform: translateY(0) translateZ(0);
   opacity: .9;
-  transition: transform 0.78s ease-out;
+  transition: transform 0.88s ease-out;
 }

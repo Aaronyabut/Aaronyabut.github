@@ -19,7 +19,7 @@ export default function NavBar() {
 
                   <a href="#projects" className="text-gray-100 hover:bg-purpleish hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
 
-                  <a href="#" className="text-gray-100 hover:bg-purpleish hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+                  <a href="https://www.linkedin.com/in/aaron-yabut/" className="text-gray-100 hover:bg-purpleish hover:text-white px-3 py-2 rounded-md text-sm font-medium" target="_blank">LinkedIn</a>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function NavBar() {
 
           <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
 
-          <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+          <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">LinkedIn</a>
         </div>
       </div>
     </nav>

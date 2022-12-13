@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Introduction () {
   return (
-    <div className="flex justify-center mx-14 my-96">
+    <div className=" flex justify-center mx-14">
       <div className="w-150">
         <h5 className="text-left text-2xl font-display text-white">
           Hi there, my name is

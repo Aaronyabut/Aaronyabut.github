@@ -30,11 +30,17 @@ module.exports = {
       width: {
         '1000': '62.5rem',
         '1100': '68.75rem',
+        '1200': '86rem',
         '500': '31.25rem',
         '992': '62rem',
       },
       height: {
         '500': '31.25rem',
+        '600': '41.25rem',
+        '700': '52rem',
+        '800': '61.25rem',
+        '900': '71.25rem',
+        '1000': '83rem',
       },
       minHeight: {
         '500': '31.25rem',
@@ -43,7 +49,7 @@ module.exports = {
         'temp-img': "url(https://source.unsplash.com/collection/905011/1000x1000)",
         'RRR': "url(https://iso.500px.com/wp-content/uploads/2017/07/stock-photo-219973977-960x1000.jpg)",
         'RR': "url(https://user-images.githubusercontent.com/85593147/195161074-67c2a670-1921-49d8-b39b-9b177d456358.gif)",
-        'SDC': "url('./SDC.png')",
+        'SDC': "url('./SDC1.png')",
         'FEC': "url(https://user-images.githubusercontent.com/85593147/195180939-94924853-4102-4c5d-a78b-7f81322a840b.gif)",
       },
       boxShadow: {
